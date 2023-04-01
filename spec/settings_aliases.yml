@@ -1,0 +1,11 @@
+defaults: &defaults
+  name: "Thomas"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

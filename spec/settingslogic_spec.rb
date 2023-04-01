@@ -204,4 +204,9 @@ describe "Settingslogic" do
     end
   end
 
+  it "should parse aliases" do
+    expect(SettingsAliases.defaults.name).to eql("Thomas")
+    expect(SettingsAliases.development.name).to eql("Thomas")
+  end
+
 end
