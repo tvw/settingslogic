@@ -13,7 +13,7 @@ language:
   haskell:
     paradigm: functional
   smalltalk:
-    paradigm: object oriented 
+    paradigm: object oriented
 
 collides:
   does: not
